@@ -32,8 +32,6 @@ console.log(carObj[searchStr]) //Logs Mazda
 
 
 for (let key in carObj) {
-    let keyStr = key;
-    console.log(keyStr);
-    console.log(carObj[keyStr])
+    console.log(carObj[key])
    //console.log(key,carObj['model'])
 }
